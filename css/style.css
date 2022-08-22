@@ -140,6 +140,7 @@ a, a:hover{
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1;
 }
 
 /* div-1 */
