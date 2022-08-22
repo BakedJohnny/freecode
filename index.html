@@ -80,16 +80,26 @@
                 <a href="#" class="text-white">Ethical Hacking Workshop</a>
               </li>
             </ul>
-            <a href="#"><i class="bi bi-search text-white search-icon" id="search-btn"></i></a>
+            <a href="#" id="search-btn" onclick="searchOpen()"><i class="bi bi-search text-white search-icon"></i></a>
+            <script type="text/javascript">
+            function searchOpen () {
+              document.getElementById("search-overlay").style.display="block";
+            }
+            </script>
           </nav>
         </div>
       </div>
       <script src="javascript/script.js"></script>
     </header>
-    <!-- <div id="search-overlay" class="block">
+    <div id="search-overlay" class="block">
   <div class="centered">
     <div id='search-box'>
-      <i id="close-btn" class="fa fa-times fa-2x"></i>
+      <i id="close-btn" class="fa fa-times fa-2x" onclick="searchClose()"></i>
+      <script type="text/javascript">
+      function searchClose () {
+        document.getElementById("search-overlay").style.display="none";
+      }
+      </script>
       <form action='/search' id='search-form' method='get' target='_top'>
         <input id='search-text' name='q' placeholder='Search' type='text' />
         <button id='search-button' type='submit'>
@@ -99,7 +109,7 @@
     </div>
   </div>
 </div>
-<script src="javascript/script.js"></script> -->
+<script src="javascript/script.js"></script>
     <div class="div-1 d-flex" style="height:72vh;">
       <div class="div-1-1">
         <h1>Creating Top-Notch</h1>

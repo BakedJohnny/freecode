@@ -1,4 +1,4 @@
-/* #search-overlay{
+#search-overlay{
   display:none;
 }
 .block {
@@ -80,7 +80,7 @@
 #close-btn:hover{
   color: #777;
   cursor: pointer;
-} */
+}
 /* overlay experiment */
 a, a:hover{
   text-decoration: none;
