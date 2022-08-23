@@ -147,6 +147,7 @@ a, a:hover{
 .div-1{
   background-image: url("../images/div-1.jpg");
   margin-top: 100px;
+  height: 72vh;
 }
 
 .div-1-1{
@@ -361,6 +362,7 @@ font-size: xx-large;
 
   .div-1{
     display: block !important;
+    height: 125vh;
   }
 
   .div-1-1{
