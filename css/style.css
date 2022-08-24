@@ -96,11 +96,10 @@ a, a:hover{
 
 .mobile-header{
   display: none;
-  margin-left: 50%;
 }
 
 .mobile-header i::before{
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold !important;
 }
 
@@ -347,9 +346,6 @@ font-size: xx-large;
   }
   .header-1{
     margin-left: 0;
-  }
-  .header-1 div div a img{
-    height: 140px;
   }
 
   .mobile-header{
